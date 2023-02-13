@@ -1,0 +1,2 @@
+C:\Users\nickf\source\repos\Gui\x64\Release\Gui.exe.lastcodeanalysissucceeded
+C:\Users\nickf\source\repos\Gui\Gui\x64\Release\NativeCodeAnalysis.read.1.tlog

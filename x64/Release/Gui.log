@@ -1,0 +1,46 @@
+﻿  App.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  functions.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  Ingredients.cpp
+  Mainframe.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  readfile.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  recipes.cpp
+  Running Code Analysis for C/C++...
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\nickf\source\repos\Gui\Gui\converTo.h(295): warning C4715: 'ingredients::converToG': not all control paths return a value
+C:\Users\nickf\source\repos\Gui\Gui\converTo.h(152): warning C4715: 'ingredients::converToC': not all control paths return a value
+  All 1701 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Gui.vcxproj -> C:\Users\nickf\source\repos\Gui\x64\Release\Gui.exe
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\unichar.h(350): warning C26439: This kind of function should not throw. Declare it 'noexcept' (f.6).
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\list.h(1164): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\list.h(1213): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\math.h(139): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\gdicmn.h(727): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\msw\gdiimage.h(26): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\variant.h(101): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\any.h(1136): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\module.h(27): warning C26495: Variable 'wxModule::m_state' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\window.h(153): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\menu.h(36): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\menu.h(37): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\dataobj.h(259): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\tbarbase.h(278): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\sizer.h(516): warning C6011: Dereferencing NULL pointer 'm_node'. 
+C:\Users\nickf\source\repos\Gui\Gui\App.cpp(10): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winbase.h(1006). 
+C:\Users\nickf\source\repos\Gui\Gui\readfile.cpp(19): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\nickf\source\repos\Gui\Gui\readfile.cpp(19): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\nickf\source\repos\Gui\Gui\readfile.cpp(51): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\nickf\source\repos\Gui\Gui\readfile.cpp(51): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).

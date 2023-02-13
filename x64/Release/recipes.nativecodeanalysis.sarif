@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/nickf/source/repos/gui/gui/recipes.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2266c6358617df2f57dc0e8e03d41332269ee82ce134972103e8e138544cc4f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/nickf/source/repos/gui/gui/recipes.h"
+          },
+          "hashes": {
+            "sha-256": "adb6b83ea6a40df1251427acf6a40e9d9cc7f334477380e5a0242966a9c49e75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/nickf/source/repos/gui/gui/ingredients.h"
+          },
+          "hashes": {
+            "sha-256": "a20dbdf06e5ce8f71ebee56e423098964e59d4f2795105e6e09b60d072f24b7a"
+          }
+        }
+      ]
+    }
+  ]
+}
