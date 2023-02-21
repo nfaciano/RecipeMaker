@@ -56,6 +56,7 @@ public:
 	void makeRecipe(wxWindow* parent);
 	void editRecipe(wxWindow* parent,int &selection);
 
+	void displayInstructions(wxWindow* parent);
 
 
 	//secondary functions

@@ -394,8 +394,7 @@ void functions::listIngredients(wxWindow* parent) {
 
 	listbox->Clear();
 	if (fridge.empty()) {
-		listbox->Append("Fridge is empty");
-		dialog->ShowModal();
+		wxMessageBox("Fridge is Empty. Please add some ingredients.");
 		return;
 	}
 
@@ -965,7 +964,46 @@ void functions::makeRecipeFunction(recipesL recipe) {
 
 
 
+
+
+
+
+
 //secondary functions
+
+void functions::displayInstructions(wxWindow* parent)
+{
+	wxDialog* dlg = new wxDialog(parent, wxID_ANY, "Instructions", wxDefaultPosition, wxSize(700, 720));
+
+	wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
+	dlg->SetSizer(sizer);
+
+	wxFont font = wxFont(12, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
+
+	wxTextCtrl* textCtrl = new wxTextCtrl(dlg, wxID_ANY, "", wxDefaultPosition, wxDefaultSize, wxTE_MULTILINE | wxTE_READONLY);
+	textCtrl->SetFont(font);
+	sizer->Add(textCtrl, wxSizerFlags(1).Expand().Border(wxALL, 20));
+
+	// Here you can set the instructions text that you want to display
+	wxString instructions = "Welcome to our Virtual Fridge program, a fun and easy way to keep track of your fridge inventory and recipes! With our program, you can easily add ingredients to your fridge, save recipes, and see what you can make with the ingredients you have on hand.\n\nTo get started, select option 2 from the main menu and add your ingredients. It's easy! Just enter the quantity of the ingredient, select the unit from the dropdown menu(this will be the ingredients main unit type. Cannot add volume to mass or mass to volume), and enter the name. Click \"add\" and the ingredient is instantly added to your fridge.\n\nWant to see all your ingredients in one place? Select option 1 from the main menu and you'll see a list of all the ingredients in your fridge. You can even edit the unit, name, and amount of each ingredient. If you change the unit of an ingredient, our program will automatically adjust the amount in your fridge accordingly.\n\nNext, let's add a recipe! Select option 4 from the main menu and enter each ingredient one at a time, adding its quantity, selecting the unit from the dropdown menu, and entering the name. Once you've added all the ingredients, you can review them in the list at the bottom of the screen. Enter the recipe name and add some directions. When you're finished, save the recipe by clicking the \"save\" button at the bottom left of the screen.\n\nNow you have a saved database of ingredients and recipes! To view all your saved recipes, select option 3 from the main menu. You can view and edit each recipe, including its ingredients and directions.\n\nWant to see what you can make with the ingredients you have on hand? Select option 5 from the main menu and our program will show you a list of all the recipes you can make with the ingredients in your fridge.\n\nReady to make a recipe? Select option 5 again from the main menu and choose a recipe from the dropdown menu. Click \"make\" and our program will delete the ingredients from your fridge and mark the recipe as \"made\".";
+
+	// Set the text in the text control
+	textCtrl->SetValue(instructions);
+
+	// Add an "OK" button to close the dialog box
+	wxButton* okButton = new wxButton(dlg, wxID_OK, "OK");
+	okButton->SetFont(font);
+	sizer->Add(okButton, wxSizerFlags().Center().Border(wxALL, 20));
+
+	// Show the dialog box
+	dlg->ShowModal();
+
+	// Clean up
+	delete dlg;
+}
+
+
+
 int functions::gcd(int a, int b) {
 	if (b == 0) {
 		return a;
@@ -1004,3 +1042,5 @@ std::string functions::doubleToStringAndFraction(double number) {
 
 	return std::to_string(whole) + " " + std::to_string(numerator) + "/" + std::to_string(denominator);
 }
+
+
