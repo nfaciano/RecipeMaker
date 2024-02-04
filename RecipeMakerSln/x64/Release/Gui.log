@@ -1,0 +1,26 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Gui.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  App.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  functions.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  Ingredients.cpp
+  Mainframe.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  readfile.cpp
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+C:\Users\nickf\Documents\library\wxWidgets-3.2.1\include\wx\wxcrt.h(11,31): warning C4081: expected 'newline'; found ')'
+  recipes.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\nickf\source\repos\Gui\Gui\converTo.h(295): warning C4715: 'ingredients::converToG': not all control paths return a value
+C:\Users\nickf\source\repos\Gui\Gui\converTo.h(152): warning C4715: 'ingredients::converToC': not all control paths return a value
+  All 1713 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Gui.vcxproj -> C:\Users\nickf\source\repos\Gui\x64\Release\RecipeMaker.exe

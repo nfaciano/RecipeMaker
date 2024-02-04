@@ -1,0 +1,12 @@
+﻿  fridge.cpp
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(84,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(87,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(126,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(129,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(140,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(143,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(153,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\nickf\source\repos\FridgeSimulator\FridgeSimulator\fridge.cpp(156,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  FridgeSimulator.vcxproj -> C:\Users\nickf\source\repos\FridgeSimulator\x64\Debug\FridgeSimulator.exe
